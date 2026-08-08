@@ -7,7 +7,7 @@ Open this folder in the Visual Studio Code and download all the dependencies by 
 Open terminal and execute command: `npm test`
 
 ## Running Application
-To launch the game open terminal and execute command: `npm start`, at the end of the process description you will find a URL, most likely `http://localhost:1234` so just open that in your browser.
+To launch the game open terminal and execute command: `pnpm dev`, at the end of the process description you will find a URL, most likely `http://localhost:1234` so just open that in your browser.
 
 To have tests and application running at the same time, open two terminals.
 
