@@ -18,9 +18,17 @@
     "parcel-bundler": "^1.12.3",
     "prettier": "1.18.2",
     "ts-jest": "^24.0.2",
-    "typescript": "^3.5.3"
+    "typescript": "^3.5.3",
+    "cssnano": "^4.1.11"
   },
   "dependencies": {
     "lodash": "^4.17.15"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "core-js",
+      "deasync",
+      "parcel-bundler"
+    ]
   }
 }
